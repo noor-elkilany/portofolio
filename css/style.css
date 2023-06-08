@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Sofia+Sans+Extra+Condensed:wght@100;200&family=Work+Sans:wght@200;300;500;600;700;800&display=swap');
 
 root {
-    --main-color:;
-   --main-tranistion:0.3s;
+  /* --main-color: var(--main-color); */
+  --main-tranistion:0.3s;
 }
 * {
     font-family: 'Open Sans', sans-serif;
@@ -31,17 +31,17 @@ header {
   
 }
 .logo{
- text-decoration: none;
- text-transform: uppercase;
- color:#f7c4ca;
- font-size: 20px;
- font-weight: bold;
- transition: var(--main-tranistion);
- -webkit-transition: var(--main-tranistion);
- -moz-transition: var(--main-tranistion);
- -ms-transition: var(--main-tranistion);
- -o-transition: var(--main-tranistion);
-}
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#f7c4ca;
+  font-size: 20px;
+  font-weight: bold;
+  transition: var(--main-tranistion);
+  -webkit-transition: var(--main-tranistion);
+  -moz-transition: var(--main-tranistion);
+  -ms-transition: var(--main-tranistion);
+  -o-transition: var(--main-tranistion);
+  }
 .logo:hover {
   color: white;
 
@@ -80,7 +80,7 @@ section {
   background-size:cover ;
   background-repeat: no-repeat;
   background-position: center;
-   background-attachment: fixed;
+  background-attachment: fixed;
 }
 
 .main h2 {
@@ -96,34 +96,34 @@ section {
   margin-top: 10px;
   }
 .main h3 {
- color: white;
- font-size:20px;
- font-weight: 500;
- letter-spacing: 1px;
- margin-top: 10px;
- margin-bottom: 10px;
+  color: white;
+  font-size:20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 } 
 .main-btn {
- text-decoration: none;
- background-color:#601cfc;
- color: white;
- padding: 10px;
- border-radius: 15px ;
- -webkit-border-radius: 15px ;
- -moz-border-radius: 15px ;
- -ms-border-radius: 15px ;
- -o-border-radius: 15px ;
- font-weight: 600;
- font-size: 20px;
- display: inline-block;
- letter-spacing: 1px;
- margin-bottom: 40px;
- transition: 0.3s;
- -webkit-transition: 0.3s;
- -moz-transition: 0.3s;
- -ms-transition: 0.3s;
- -o-transition: 0.3s;
+  text-decoration: none;
+  background-color:#601cfc;
+  color: white;
+  padding: 10px;
+  border-radius: 15px ;
+  -webkit-border-radius: 15px ;
+  -moz-border-radius: 15px ;
+  -ms-border-radius: 15px ;
+  -o-border-radius: 15px ;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 .main-btn:hover {
   background-color: hsl(224, 89%, 59%);
@@ -141,12 +141,12 @@ section {
   
 }
 .social-icons a:hover {
-   color: #4e9eff;
-   transform:rotate(10deg) ;
-   -webkit-transform:rotate(10deg) ;
-   -moz-transform:rotate(10deg) ;
-   -ms-transform:rotate(10deg) ;
-   -o-transform:rotate(10deg) ;
+  color: #4e9eff;
+  transform:rotate(10deg) ;
+  -webkit-transform:rotate(10deg) ;
+  -moz-transform:rotate(10deg) ;
+  -ms-transform:rotate(10deg) ;
+  -o-transform:rotate(10deg) ;
 }
 .social-icons a:nth-child(4):hover {
   color: #0800ff;
@@ -177,14 +177,14 @@ section {
   }
 }  
 .content {
- display: flex;
- text-align: center;
- flex-direction: row;
- flex-wrap: wrap;
- display: flex;
- justify-content: center;
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
- .card {
+.card {
   box-shadow: 0 5px 25px rgb(1 1 1 / 40%);
   background-color:aliceblue ;
   border-radius: 10px;
@@ -217,16 +217,16 @@ section {
   text-align: center;
 }
 .info h3 {
- color: #3a6cf4;
- font-size: 25px;
- font-weight: bold;
- margin: 10px;
+  color: #3a6cf4;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px;
 }
 .projects {
   background-color:black;
 }
 .projects .content {
- margin-top: 30px;
+  margin-top: 30px;
 }
 .project-card {
   background-color: #fff;
@@ -278,7 +278,7 @@ section {
   color: #3a6cf4;
 }
 .more-details:hover {
- color:#601cfc;
+  color:#601cfc;
 }
 .contact .icon {
   font-size: 30px;
